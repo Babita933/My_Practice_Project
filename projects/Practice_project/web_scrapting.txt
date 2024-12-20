@@ -1,0 +1,14 @@
+
+with python
+read file Amazon.in _ iphone 13.html and parse it with Beautifulsoup
+find all
+<div with  class="puis-card-container s-card-container s-overflow-hidden aok-relative puis-include-content-margin puis puis-vsom9k8yemr4u1yo82zayoamev s-latency-cf-section puis-card-border" data-cy="asin-faceout-container">
+for all the divs
+ try find span with  class="a-size-medium a-color-base a-text-normal" and store it to Product_Name
+ except Product_Name=" "
+try find span with  class="a-price-whole" and store it to Product_price
+except Product_price=" "
+try find i  with class="a-icon a-icon-popover" and store it to Product_reviews
+except Product_reviews=" "
+open an excel file and write Product_Name,Product_price and Product_reviews
+save the excel file
