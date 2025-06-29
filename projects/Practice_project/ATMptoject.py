@@ -62,6 +62,3 @@ if pin == password:
 
 else:
     print("wrong pin Please try again")
-
-
-
